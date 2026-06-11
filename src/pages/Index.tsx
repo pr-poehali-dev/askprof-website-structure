@@ -283,7 +283,7 @@ export default function Index() {
           <div className="mt-20 grid grid-cols-3 gap-4 max-w-lg mx-auto animate-fade-up delay-800 opacity-0">
             {[
               { num: "4", label: "Направления" },
-              { num: "3", label: "Эксперта" },
+              { num: "20+", label: "Разработчиков" },
               { num: "2025", label: "Год основания" },
             ].map((s) => (
               <div key={s.label} className="glass rounded-xl p-4 text-center">
