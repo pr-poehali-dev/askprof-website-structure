@@ -569,12 +569,12 @@ export default function Index() {
                 {
                   icon: "Mail",
                   title: "Email",
-                  value: "info@askprof.ru",
+                  value: "ACK-PROF@ya.ru",
                 },
                 {
                   icon: "Phone",
                   title: "Телефон",
-                  value: "Уточните при обращении",
+                  value: "+7 999 616-23-65",
                 },
               ].map((c) => (
                 <div key={c.title} className="glass rounded-2xl p-6 flex gap-4 border border-white/5 card-hover">
