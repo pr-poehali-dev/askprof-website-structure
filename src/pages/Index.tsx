@@ -282,7 +282,7 @@ export default function Index() {
           {/* Stats */}
           <div className="mt-20 grid grid-cols-3 gap-4 max-w-lg mx-auto animate-fade-up delay-800 opacity-0">
             {[
-              { num: "4", label: "Направления" },
+              { num: "100+", label: "Проектов" },
               { num: "20+", label: "Разработчиков" },
               { num: "2025", label: "Год основания" },
             ].map((s) => (
