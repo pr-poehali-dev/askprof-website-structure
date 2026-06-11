@@ -76,7 +76,7 @@ export default function Index() {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "glass-strong py-3 shadow-lg shadow-black/20" : "py-5"}`}>
         <div className="container mx-auto flex items-center justify-between px-6">
           <a href="#home" onClick={(e) => { e.preventDefault(); scrollTo("#home"); }} className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg flex items-center justify-center text-background font-oswald font-bold text-lg btn-glow" style={{ background: "linear-gradient(135deg, #00d4ff, #0066ff)" }}>А</div>
+            <img src="https://cdn.poehali.dev/projects/3cb35d12-7c9a-4bbf-91eb-38a2ff420fbd/files/9322792d-fc51-4146-a6d1-b1dddd742d29.jpg" alt="АСК ПРОФ" className="w-10 h-10 rounded-lg object-cover" />
             <div>
               <div className="font-oswald font-semibold text-lg text-white tracking-wide leading-none">АСК ПРОФ</div>
               <div className="text-xs text-muted-foreground leading-none mt-0.5">IT Solutions</div>
